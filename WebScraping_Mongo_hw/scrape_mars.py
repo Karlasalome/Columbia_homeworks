@@ -1,14 +1,9 @@
 # Import Dependecies
 
 from bs4 import BeautifulSoup
-
 from splinter import Browser
-
 import pandas as pd
-
 import requests
-
- 
 
 # Initialize browser
 
@@ -16,15 +11,10 @@ def init_browser():
 
     # Replace the path with your actual path to the chromedriver
 
- 
-
     #Mac Users
-
     #executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
-
     #return Browser('chrome', **executable_path, headless=False)
 
- 
 
     #Windows Users
 
@@ -34,7 +24,7 @@ def init_browser():
 
     exec_path = {'executable_path': 'chromedriver.exe'}
 
-    return Browser('chrome', headless=True, **exec_path)
+    return Browser('chrome', headless=False, **exec_path)
 
  
 
