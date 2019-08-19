@@ -1,4 +1,4 @@
-D3 Animated Scatter Plot
+// D3 Animated Scatter Plot
 
 // Section 1: Pre-Data Setup
 // ===========================
