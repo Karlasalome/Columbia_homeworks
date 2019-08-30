@@ -20,7 +20,7 @@
   }
 /* Make buttons more visible */
   .btn{
-    background-color: rgba(159, 162, 170, 0.849); 
+    background-color: rgba(240, 242, 245, 0.849); 
   }
 
   @keyframes bounce {
@@ -43,7 +43,7 @@
   }
   div .navbar{
     color: white;
-    background-color: rgb(95, 94, 97) !important; 
+    background-color: rgb(6, 6, 7) !important; 
     border-bottom-style: groove; 
     border-bottom-color: rgb(101, 101, 107); 
   }
@@ -199,8 +199,7 @@ ul #filters{
     }
   }
 
-  
-.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+  .table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
    /* background-color: rgba(97, 141, 27, 0.322);  */
    background-color: rgb(87, 87, 100); 
 }
@@ -250,10 +249,9 @@ ul #filters{
     }
   
     .hero h1 {
-      animation: smaller-title 1.2s forwards linear;
+      animation-fill-mode: smaller-title 1s forwards linear;
     }
   }
-  
   /* keyframe animations which will be used to animate the title */
   @keyframes title {
     from {
@@ -261,7 +259,7 @@ ul #filters{
     }
   
     to {
-      font-size: 7.5rem;
+      font-size: 9.5rem;
       opacity: 1;
     }
   }
