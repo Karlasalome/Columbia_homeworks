@@ -1,3 +1,11 @@
+# Front page
+![pageface](https://user-images.githubusercontent.com/46768393/64024267-f9f05e80-cb07-11e9-90f8-1ba54f8a1d10.png)
+
+# Data filter menu
+
+![filter search](https://user-images.githubusercontent.com/46768393/64024252-f2c95080-cb07-11e9-8bbd-36b712b43bae.png)
+
+
 # Unit 14 | Assignment - JavaScript and DOM Manipulation
 
 ## Background
